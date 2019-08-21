@@ -2,6 +2,17 @@
 layout: default
 ---
 
-<h1>Writing</h1>
 
-<p class="Lede">Bliggity blag</p>
+<h1 class="Page-title">Writing</h1>
+
+{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% for year in postsByYear %}
+  <h3>{{ year.name }}</h3>
+  <ul class="Posts">
+    {% for post in year.items %}
+      <li class="Posts-title" data-emoji="{{ post.emoji | default: "👉" }}">
+        <a href="{{ post.url }}">{{ post.date | date: "%-d %B" }}: <strong>{{ post.title }}</a></strong>
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}

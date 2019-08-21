@@ -1,0 +1,17 @@
+.Posts {
+  margin: 0 0 2rem;
+  padding: 0;
+  list-style: none;
+
+  &-title {
+    padding-left: 1rem;
+    text-indent: -0.7rem;
+    line-height: 1.5;
+    @include size--base-2;
+
+    &::before {
+      margin-right: 0.5rem;
+      content: attr(data-emoji);
+    }
+  }
+}

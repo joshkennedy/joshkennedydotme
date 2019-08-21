@@ -12,29 +12,30 @@
 
 .Container {
   margin: 0 auto;
-  max-width: 1020px;
   padding: 0 2rem;
+  width: 100%;
+  max-width: 1020px;
 }
 
 .Intro {
+  display: flex;
   align-items: center;
   background-color: $color-platinum;
-  display: flex;
   padding: 4rem 0;
 
   @include breakpoint(sm) {
-    height: calc(100vh - 5rem);
     padding: 0 2rem;
+    height: calc(100vh - 5rem);
   }
 }
 
 .Page-title {
   &::after {
-    background-color: $color-black;
-    content: "";
     display: block;
-    height: 8px;
+    background-color: $color-black;
     width: 5rem;
+    height: 8px;
+    content: "";
     @include m-y-spacer-($spacer-sm);
   }
 }

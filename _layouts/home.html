@@ -1,18 +1,7 @@
-<!doctype html>
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge" shrink-to-fit="no">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <link rel="stylesheet" href="/css/styles.css">
-  </head>
-  <body class="Layout-{{ page.layout }}">
-    {% include header.html %}
-    <main class="Intro">
-      <div class="Container">
-        {{ content }}
-      </div>
-    </main>
-  </body>
-</html>
+{% include head.html %}
+  <main class="Intro">
+    <div class="Container">
+      {{ content }}
+    </div>
+  </main>
+{% include footer.html %}
