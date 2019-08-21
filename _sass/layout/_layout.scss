@@ -1,0 +1,40 @@
+.Layout-home {
+  padding: 0.5rem;
+
+  @include breakpoint(sm) {
+    padding: 1.5rem;
+  }
+
+  @include breakpoint(md) {
+    padding: 2.5rem;
+  }
+}
+
+.Container {
+  margin: 0 auto;
+  max-width: 1020px;
+  padding: 0 2rem;
+}
+
+.Intro {
+  align-items: center;
+  background-color: $color-platinum;
+  display: flex;
+  padding: 4rem 0;
+
+  @include breakpoint(sm) {
+    height: calc(100vh - 5rem);
+    padding: 0 2rem;
+  }
+}
+
+.Page-title {
+  &::after {
+    background-color: $color-black;
+    content: "";
+    display: block;
+    height: 8px;
+    width: 5rem;
+    @include m-y-spacer-($spacer-sm);
+  }
+}

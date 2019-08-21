@@ -1,0 +1,145 @@
+@mixin breakpoint($class) {
+  @if $class == mobile-only {
+    @media (max-width: #{$screen-sm-min} - 1) { @content; }
+  }
+
+  @else if $class == xs {
+    @media (min-width: #{$screen-xs-min}) { @content; }
+  }
+
+  @else if $class == sm {
+    @media (min-width: #{$screen-sm-min}) { @content; }
+  }
+
+  @else if $class == md {
+    @media (min-width: #{$screen-md-min}) { @content; }
+  }
+
+  @else if $class == lg {
+    @media (min-width: #{$screen-lg-min}) { @content; }
+  }
+
+  @else if $class == xl {
+    @media (min-width: #{$screen-xl-min}) { @content; }
+  }
+
+  @else if $class == xxl {
+    @media (min-width: #{$screen-xxl-min}) { @content; }
+  }
+
+  @else {
+    @warn "Breakpoint mixin supports: mobile-only, sm, md, lg";
+  }
+}
+
+@mixin font-body {
+  font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@mixin font-headings {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+}
+
+// Heading X-Large
+@mixin heading-xlarge {
+  line-height: 1.2;
+  @include size--base-6;
+  @include font-headings;
+}
+
+// Heading Large
+@mixin heading-large {
+  line-height: 1.3;
+  @include size--base-5;
+  @include font-headings;
+}
+
+// Heading Medium
+@mixin heading-medium {
+  line-height: 1.3;
+  @include size--base-4;
+  @include font-headings;
+}
+
+// Heading Small
+@mixin heading-small {
+  line-height: 1.3;
+  @include size--base-3;
+  @include font-headings;
+}
+
+// Body Large
+@mixin body-large {
+  line-height: 1.5;
+  @include size--base-2;
+  @include font-body;
+}
+
+// Body
+@mixin body {
+  line-height: 1.5;
+  @include size--base-1;
+  @include font-body;
+}
+
+
+@mixin size--base-0 {
+  font-size: $m-b0;
+
+  @include breakpoint(sm) {
+    font-size: $d-b0;
+  }
+}
+
+@mixin size--base-1 {
+  font-size: $m-b1;
+
+  @include breakpoint(sm) {
+    font-size: $d-b1;
+  }
+}
+
+@mixin size--base-2 {
+  font-size: $m-b2;
+
+  @include breakpoint(sm) {
+    font-size: $d-b2;
+  }
+}
+
+@mixin size--base-3 {
+  font-size: $m-b3;
+
+  @include breakpoint(sm) {
+    font-size: $d-b3;
+  }
+}
+
+@mixin size--base-4 {
+  font-size: $m-b4;
+
+  @include breakpoint(sm) {
+    font-size: $d-b4;
+  }
+}
+
+@mixin size--base-5 {
+  font-size: $m-b5;
+
+  @include breakpoint(sm) {
+    font-size: $d-b5;
+  }
+}
+
+@mixin size--base-6 {
+  font-size: $m-b6;
+
+  @include breakpoint(md) {
+    font-size: $d-b6;
+  }
+}
+

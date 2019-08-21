@@ -1,0 +1,16 @@
+language: ruby
+cache: bundler
+branches:
+  only:
+    - master
+rvm:
+  - 2.5.1
+before_install:
+  - gem install jekyll
+install:
+  - bundle install
+before_script:
+  - npm install -g gulp-cli
+  - npm install
+script: gulp travis
+

@@ -1,0 +1,54 @@
+.Header {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+
+  @include breakpoint(md) {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem;
+  }
+
+  .Layout-home & {
+    padding: 1.5rem;
+    position: absolute;
+
+    @include breakpoint(sm) {
+      width: calc(100% - 8rem);
+    }
+  }
+}
+
+.Logo {
+  font-weight: 900;
+  @include m-b-spacer-($spacer-sm);
+
+  @include breakpoint(sm) {
+    margin-bottom: 0;
+  }
+}
+
+.Menu {
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      font-weight: 600;
+      letter-spacing: 0.04rem;
+      text-align: right;
+      @include size--base-0;
+
+      &:not(:first-of-type) {
+        @include m-l-spacer-($spacer-md);
+      }
+
+      a {
+        color: rgba($color-black, .6);
+      }
+    }
+  }
+}

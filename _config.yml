@@ -1,0 +1,29 @@
+#------------------------------------------------------------
+#
+#  Config Settings
+#
+#------------------------------------------------------------
+
+markdown: kramdown
+# permalink: :year/:title/
+timezone: America/Chicago
+permalink: pretty
+
+include:
+  - .htaccess
+
+# plugins:
+  # - jekyll-feed
+  # - jekyll-webp
+  # - jekyll-seo-tag
+  # - jekyll-sitemap
+
+exclude:
+  - LICENSE
+  - README
+  - Rakefile
+  - bower_components
+  - gulpfile.js
+  - modernizr-config.json
+  - node_modules
+  - package.json

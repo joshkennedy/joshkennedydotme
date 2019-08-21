@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:900&display=swap");
+
+html,
+body {
+  color: $color-black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @include font-body;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @inclue font-headings;
+}
+
+h1 {
+  @include heading-xlarge;
+}
+
+h2 {
+  @include heading-large;
+}
+
+h3 {
+  @include heading-medium;
+}
+
+.Lede {
+  max-width: 640px;
+  @include body-large;
+}
+
+p {
+  max-width: 520px;
+  @include body;
+}
+
+a {
+  color: $color-black;
+  text-decoration: none;
+}
+
+.Post a {
+  border-bottom: 1px solid $color-black;
+}
