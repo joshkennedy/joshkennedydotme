@@ -26,15 +26,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davesantos/jekyll-diy.git"
+    "url": "git+https://github.com/joshkennedy/joshkennedy.me.git"
   },
   "bugs": {
-    "url": "https://github.com/davesantos/jekyll-diy/issues"
+    "url": "https://github.com/joshkennedy/joshkennedy.me/issues"
   },
-  "homepage": "https://github.com/davesantos/jekyll-diy#readme",
-  "main": "gulpfile.js",
-  "keywords": [
-    "jekyll",
-    "jekyll boilerplate"
-  ]
+  "homepage": "https://github.com/joshkennedy/joshkennedy.me#readme",
+  "main": "gulpfile.js"
 }
