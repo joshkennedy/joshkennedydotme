@@ -1,0 +1,17 @@
+{% include head.html %}
+  <main class="Main">
+    <article class="Container" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
+      <meta itemprop="description" content="{{ content | strip_html | truncatewords: 40 }}" />
+      <h1 class="Page-title" itemprop="name">{{ page.title }}</h1>
+
+      <div class="Post" itemprop="articleBody">
+        {{ content }}
+      </div>
+
+      <time class="published" itemprop="datePublished" datetime="{{ page.date | date: '%Y-%m-%d' }}">
+        Published on {{ page.date | date: "%B %e, %Y" }}
+      </time>
+    </article>
+  </main>
+{% include footer.html %}

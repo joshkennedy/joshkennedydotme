@@ -1,6 +1,6 @@
 ---
 title: Year in Review (2019)
-layout: default
+layout: post
 emoji: 👨🏻‍💻
 published: false
 ---

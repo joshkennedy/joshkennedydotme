@@ -14,7 +14,7 @@ I'm reading 3-4 books at any given time. I typically read something edifying and
 
 - **Knowing God** by J.I. Packer
 - **All These Worlds** by Dennis E. Taylor
-- **To Own a Dragon: Reflections on Growing Up Without a Father** by Donald Miller
+- **To Own a Dragon** by Donald Miller
 - **Dead Eye** by Mark Greaney
 - **Washington: A Life** by Ron Chernow
 
@@ -56,7 +56,7 @@ Grouped by author and/or series
 1. **Mistborn: Secret History** by Brandon Sanderson
 1. **Allomancer Jak and the Pits of Eltania** by Brandon Sanderson
 1. **Sixth of the Dusk** by Brandon Sanderson
-1. **Arcanum Unbounded: The Cosmere Collection** by Brandon Sanderson
+1. **Arcanum Unbounded** by Brandon Sanderson
 1. **Finding Jesus in Israel** by Buck Storm
 1. **We Are Legion, We Are Bob** by Dennis E. Taylor
 1. **For We Are Many** by Dennis E. Taylor
