@@ -3,7 +3,7 @@ permalink: :title
 timezone: America/Chicago
 permalink: pretty
 
-title: 👨🏻‍💻 The Website of Josh Kennedy
+title: The Website of Josh Kennedy
 description: Husband, father, designer, developer, all-around cheeky fellow
 url: https://www.joshkennedy.me
 author: Josh Kennedy
@@ -11,20 +11,30 @@ twitter:
   username: joshkennedy
   card: summary
 
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-webp
+
 sass:
   style: compressed
   load_paths:
     - _sass
     - node_modules
 
+webp:
+  enabled: true
+  quality: 85
+  img_dir: ["/assets/images"]
+  formats: [".jpeg", ".jpg", ".png", ".gif"]
+  gifs: [".gif"]
+  regenerate: false
+  webp_path: nil
+  exclude: []
+
 include:
   - .htaccess
-
-plugins:
-  - jekyll-seo-tag
-  # - jekyll-feed
-  # - jekyll-webp
-  # - jekyll-sitemap
 
 exclude:
   - LICENSE

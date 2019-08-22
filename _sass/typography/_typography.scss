@@ -24,25 +24,32 @@ h3 {
   @include heading-medium;
 }
 
-.Lede {
-  max-width: 640px;
-  @include body-large;
+h4 {
+  @include heading-small;
 }
 
-p {
+p,
+ul,
+ol {
   max-width: 520px;
   @include body;
 }
 
 a {
-  text-decoration: none;
   color: $color-black;
+  text-decoration: none;
 }
 
+.Lede {
+  max-width: 640px;
+  @include body-large;
+}
+
+.Page a,
 .Post a,
 .Posts a {
+  border-bottom: 2px solid rgba($color-black, 0.4);
   transition: border 230ms cubic-bezier(0.2, 0.8, 0.2, 1);
-  border-bottom: 1px solid rgba($color-black, .5);
 
   &:hover {
     border-bottom-color: $color-black;

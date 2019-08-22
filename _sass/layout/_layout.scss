@@ -12,30 +12,34 @@
 
 .Container {
   margin: 0 auto;
-  padding: 0 2rem;
-  width: 100%;
   max-width: 1020px;
+  padding: 0 2rem;
+  width: calc(100% - 4rem);
 }
 
 .Intro {
-  display: flex;
   align-items: center;
   background-color: $color-platinum;
+  display: flex;
   padding: 4rem 0;
 
   @include breakpoint(sm) {
-    padding: 0 2rem;
     height: calc(100vh - 5rem);
+    padding: 0 2rem;
   }
 }
 
-.Page-title {
-  &::after {
-    display: block;
-    background-color: $color-black;
-    width: 5rem;
-    height: 8px;
-    content: "";
-    @include m-y-spacer-($spacer-sm);
+.Page {
+  padding-bottom: 4rem;
+
+  &-title {
+    &::after {
+      background-color: $color-black;
+      content: "";
+      display: block;
+      height: 8px;
+      width: 5rem;
+      @include m-y-spacer-($spacer-sm);
+    }
   }
 }
