@@ -31,25 +31,25 @@ h4 {
 p,
 ul,
 ol {
-  max-width: 520px;
+  max-width: 600px;
   @include body;
 }
 
 a {
-  color: $color-black;
   text-decoration: none;
+  color: $color-black;
 }
 
 .Lede {
-  max-width: 640px;
+  max-width: 720px;
   @include body-large;
 }
 
 .Page a,
 .Post a,
 .Posts a {
-  border-bottom: 2px solid rgba($color-black, 0.4);
   transition: border 230ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  border-bottom: 2px solid rgba($color-black, 0.4);
 
   &:hover {
     border-bottom-color: $color-black;

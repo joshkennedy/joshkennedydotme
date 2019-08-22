@@ -1,0 +1,60 @@
+form {
+  max-width: 560px;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  @include body;
+}
+
+label,
+input,
+textarea {
+  width: 100%;
+}
+
+input,
+button,
+textarea {
+  box-sizing: border-box;
+  display: block;
+  transition: border 230ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    background-color 230ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  border: 1px solid $color-gray;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  color: $color-black;
+}
+
+input,
+textarea {
+  outline: none;
+
+  &:active,
+  &:focus {
+    border: 1px solid $color-black;
+  }
+}
+
+textarea {
+  min-height: 300px;
+  resize: none;
+}
+
+.Button {
+  background-color: $color-platinum;
+  padding: 1rem 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  @include button;
+
+  &:hover {
+    background-color: $color-platinum;
+  }
+}
+
+.Form-group {
+  margin-bottom: 2rem;
+}

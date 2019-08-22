@@ -1,11 +1,13 @@
 ---
 layout: default
 ---
+{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% assign numberOfPosts = site.posts | size %}
 
 
 <h1 class="Page-title">Writing</h1>
 
-{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+
 {% for year in postsByYear %}
   <h3>{{ year.name }}</h3>
   <ul class="Posts">
@@ -16,3 +18,8 @@ layout: default
     {% endfor %}
   </ul>
 {% endfor %}
+
+{% if numberOfPosts == 0 %}
+  <p class="Lede">Ruminations coming soon...</p>
+{% endif %}
+

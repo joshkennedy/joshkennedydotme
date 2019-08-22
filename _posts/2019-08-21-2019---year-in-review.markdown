@@ -2,5 +2,5 @@
 title: Year in Review (2019)
 layout: default
 emoji: 👨🏻‍💻
-published: true
+published: false
 ---
