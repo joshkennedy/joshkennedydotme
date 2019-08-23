@@ -4,7 +4,7 @@
 .asset-cache
 .bundle
 .jekyll-metadata
-.jekyll-cache
+*.jekyll-cache
 .sass-cache
 _site
 bower_components
