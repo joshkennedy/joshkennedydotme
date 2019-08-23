@@ -12,20 +12,20 @@
 
 .Container {
   margin: 0 auto;
-  max-width: 1020px;
   padding: 0 2rem;
   width: calc(100% - 4rem);
+  max-width: 1020px;
 }
 
 .Intro {
+  display: flex;
   align-items: center;
   background-color: $color-platinum;
-  display: flex;
   padding: 4rem 0;
 
   @include breakpoint(sm) {
-    height: calc(100vh - 5rem);
     padding: 0 2rem;
+    height: calc(100vh - 5rem);
   }
 }
 
@@ -34,12 +34,27 @@
 
   &-title {
     &::after {
-      background-color: $color-black;
-      content: "";
       display: block;
-      height: 8px;
+      background-color: $color-black;
       width: 5rem;
+      height: 8px;
+      content: "";
       @include m-y-spacer-($spacer-sm);
     }
   }
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+
+  figcaption {
+    color: darken($color-platinum, 60%);
+    font-size: $d-b0;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }

@@ -33,12 +33,13 @@
 }
 
 @mixin font-body {
-  font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-  font-weight: normal;;
+  font-family: "IBM Plex Sans", system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-weight: 500;
   font-style: normal;
 }
 
 @mixin font-headings {
+  color: $color-black;
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-style: normal;
@@ -88,7 +89,7 @@
 
 // Body
 @mixin body {
-  line-height: 1.5;
+  line-height: 1.65;
   @include size--base-1;
   @include font-body;
 }
