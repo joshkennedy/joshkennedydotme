@@ -1,16 +1,15 @@
 .Post {
   &-image {
-
     @include breakpoint(sm) {
       float: right;
       margin: 0 0 1.5rem 1.5rem;
       width: 60%;
 
       &::after {
+        display: table;
         clear: both;
         content: "";
       }
     }
-
   }
 }

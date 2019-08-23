@@ -30,7 +30,7 @@
 }
 
 .Page {
-  padding-bottom: 4rem;
+  @include m-b-spacer-($spacer-lg);
 
   &-title {
     &::after {

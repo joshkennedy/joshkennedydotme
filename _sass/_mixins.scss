@@ -73,6 +73,13 @@
   @include font-headings;
 }
 
+// Heading X-Small
+@mixin heading-xsmall {
+  line-height: 1.3;
+  @include size--base-2;
+  @include font-headings;
+}
+
 // Heading Small
 @mixin button {
   line-height: 1.3;

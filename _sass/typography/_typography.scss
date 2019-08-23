@@ -9,7 +9,11 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @inclue font-headings;
+  margin: 0;
+  @include m-b-spacer-($spacer-sm);
+}
+
+p, ul, ol {
 }
 
 h1 {
@@ -28,10 +32,15 @@ h4 {
   @include heading-small;
 }
 
+h5 {
+  @include heading-xsmall;
+}
+
 p,
 ul,
 ol {
   max-width: 600px;
+  @include m-b-spacer-($spacer-md);
   @include body;
 }
 
@@ -59,4 +68,8 @@ strong {
   &:hover {
     border-bottom-color: $color-black;
   }
+}
+
+.u-textCentered {
+  text-align: center;
 }
