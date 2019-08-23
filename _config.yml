@@ -12,10 +12,14 @@ twitter:
   card: summary
 
 plugins:
+  - jekyll-email-protect
   - jekyll-feed
+  - jekyll-purgecss
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-webp
+
+css_dir: "assets/css"
 
 sass:
   style: compressed

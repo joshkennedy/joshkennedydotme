@@ -8,7 +8,9 @@ gem "jekyll", "4.0.0"
 # gem "github-pages", group: :jekyll_plugins
 
 group :jekyll_plugins do
+  gem "jekyll-email-protect"
   gem "jekyll-feed"
+  gem "jekyll-purgecss"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
   gem "jekyll-webp"

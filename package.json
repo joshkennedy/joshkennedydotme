@@ -10,6 +10,7 @@
     "gulp": "^4.0.2",
     "gulp-clean-css": "3.10.0",
     "gulp-htmltidy": "^0.2.4",
+    "gulp-purgecss": "^1.2.0",
     "gulp-remove-empty-lines": "0.1.0",
     "gulp-sass": "4.0.1",
     "gulp-uglify": "3.0.1",
