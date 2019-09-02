@@ -13,9 +13,9 @@ I'm reading 3-4 books at any given time. I typically read something edifying and
 #### Currently Reading
 
 - **Knowing God** by J.I. Packer
-- **All These Worlds** by Dennis E. Taylor
 - **To Own a Dragon** by Donald Miller
-- **Dead Eye** by Mark Greaney
+- **Back Blast** by Mark Greaney
+- **Alas, Babylon** by Pat Frank
 - **Washington: A Life** by Ron Chernow
 
 #### 2019
@@ -36,6 +36,7 @@ Grouped by author and/or series
 1. **The Gray Man** by Mark Greaney
 1. **On Target** by Mark Greaney
 1. **Ballistic** by Mark Greaney
+1. **Dead Eye** by Mark Greaney
 1. **Everyday Millionaires** by Chris Hogan
 1. **The Girl in the Spider's Web** by David Lagercrantz
 1. **The Girl Who Takes an Eye for an Eye** by David Lagercrantz
@@ -60,6 +61,7 @@ Grouped by author and/or series
 1. **Finding Jesus in Israel** by Buck Storm
 1. **We Are Legion, We Are Bob** by Dennis E. Taylor
 1. **For We Are Many** by Dennis E. Taylor
+1. **All These Worlds** by Dennis E. Taylor
 1. **Alive in the Spirit** by A.W. Tozer
 1. **The Pursuit of God** by A.W. Tozer
 1. **Artemis** by Andy Weir
