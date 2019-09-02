@@ -8,7 +8,9 @@ layout: default
 
 I've managed to [stay in front of my goal so far](https://www.goodreads.com/user/show/13207293-josh){:target="_blank"}{:rel="noopener"}. As I type this, I'm a few books ahead of schedule. We'll see if that holds up.
 
-I'm reading 3-4 books at any given time. I typically read something edifying and faith-building to read with my morning coffee, an audiobook during my commute, something non-fiction for the evenings and weekends, and a ficton that I'll read before bed.
+I'm reading 3-4 books at any given time. I typically read something edifying and faith-building with my morning coffee,
+listen to an audiobook during my commute, read something non-fiction in the evenings and on weekends, and fall asleep
+reading something fictonal before bed.
 
 #### Currently Reading
 
