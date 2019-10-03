@@ -1,7 +1,7 @@
 markdown: kramdown
 permalink: :title
 timezone: America/Chicago
-permalink: pretty
+highlighter: rouge
 
 title: The Website of Josh Kennedy
 description: Husband, father, designer, developer, all-around cheeky fellow

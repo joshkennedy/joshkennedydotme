@@ -12,7 +12,8 @@ layout: default
   <ul class="Posts" itemscope="" itemtype="http://schema.org/Blog">
     {% for post in year.items %}
       <li class="Posts-title" data-emoji="{{ post.emoji | default: "👉" }}" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
-        <a href="{{ post.url }}" itemprop="url"><time itemprop="datePublished" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B" }}</time>: <strong itemprop="name">{{ post.title }}</strong></a>
+        <a href="{{ post.url }}" itemprop="url"><strong itemprop="name">{{ post.title }}</strong></a><br>
+        <small><time itemprop="datePublished" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B" }}</time></small>
       </li>
     {% endfor %}
   </ul>

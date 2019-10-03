@@ -1,0 +1,115 @@
+div.highlight {
+  border-radius: 1rem;
+  background-color: #fafafa;
+  max-width: 800px;
+  overflow-x: scroll;
+  color: #6e7580;
+  @include p-x-spacer-($spacer-lg);
+  @include p-y-spacer-($spacer-sm);
+  @include m-b-spacer-($spacer-lg);
+
+  code {
+    @include size--base-1;
+  }
+
+
+  table {
+    td {
+      padding: 5px;
+    }
+
+    pre {
+      margin: 0;
+    }
+  }
+
+  .c, .cd, .cm, .c1, .cp {
+    color: #abb0b6;
+  }
+
+  .cs {
+    color: #e6b673;
+  }
+
+  .err {
+    background-color: #f51818;
+    color: #fafafa;
+  }
+
+  .gi {
+    color: #86b300;
+  }
+
+  .gd {
+    color: #f51818;
+  }
+
+  .ge {
+    font-style: italic;
+  }
+
+  .gr, .gt {
+    background-color: #f51818;
+    color: #fafafa;
+  }
+
+  .gh {
+    color: #ff6a00;
+  }
+
+  .go, .gp {
+    color: #6e7580;
+  }
+
+  .gs {
+    font-weight: bold;
+  }
+
+  .gu {
+    color: #6e7580;
+  }
+
+  .k, .kv, .kc, .kd, .kp, .kr, .kt {
+    color: #fa6e32;
+  }
+
+  .kn, .ow, .o {
+    color: #ed9366;
+  }
+
+  .mf, .mh, .il, .mi, .mo, .m, .mb, .mx, .se {
+    color: #a37acc;
+  }
+
+  .sb, .sc, .sd, .s2, .sh, .si, .sx, .s1, .s {
+    color: #86b300;
+  }
+
+  .ss {
+    color: #55b4d4;
+  }
+
+  .sr {
+    color: #4cbf99;
+  }
+
+  .na {
+    color: #f07171;
+  }
+
+  .nc, .nd, .ne, .nf {
+    color: #f29718;
+  }
+
+  .no {
+    color: #a37acc;
+  }
+
+  .bp, .nb, .ni, .nn, .vc, .vg, .vi, .nv, .w, .nl {
+    color: #399ee6;
+  }
+
+  .nt {
+    color: #55b4d4;
+  }
+}

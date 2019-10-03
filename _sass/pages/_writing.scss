@@ -1,13 +1,18 @@
 .Posts {
   margin: 0 0 2rem;
   padding: 0;
+  max-width: 100%;
   list-style: none;
 
   &-title {
-    padding-left: 1rem;
-    text-indent: -0.7rem;
+    padding-left: 2.5rem;
+    text-indent: -2.5rem;
     line-height: 1.5;
     @include size--base-2;
+
+    time {
+      @include size--base-0;
+    }
 
     &::before {
       margin-right: 0.5rem;

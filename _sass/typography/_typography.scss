@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:500,700|Poppins:900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:500,700|Poppins:900|IBM+Plex+Mono:500&display=swap');
 
 html,
 body {
@@ -52,6 +52,15 @@ a {
 a,
 strong {
   color: $color-black;
+}
+
+code {
+  @include font-mono;
+
+  p & {
+    border-radius: 1rem;
+    color: darken($color-platinum, 40%);
+  }
 }
 
 .Lede {

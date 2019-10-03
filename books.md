@@ -17,8 +17,9 @@ reading something fictonal before bed.
 - **Knowing God** by J.I. Packer
 - **To Own a Dragon** by Donald Miller
 - **Back Blast** by Mark Greaney
-- **Alas, Babylon** by Pat Frank
+- **American Pastoral** by Philip Roth
 - **Washington: A Life** by Ron Chernow
+- **Zero to One** by Peter Thiel
 
 #### 2019
 
@@ -30,7 +31,9 @@ Grouped by author and/or series
 1. **Hawke** by Ted Bell
 1. **Assassin** by Ted Bell
 1. **Pirate** by Ted Bell
+1. **Thank You For My Service** by Mat Best
 1. **Hickory Dickory Death** by Agatha Christie
+1 **Alas, Babylon** by Pat Frank
 1. **Man's Search for Meaning** by Viktor E. Frankl
 1. **Lethal White** by Robert Galbraith
 1. **Houses on the Sand** by Noah Goats
@@ -45,6 +48,7 @@ Grouped by author and/or series
 1. **Through Painted Deserts** by Donald Miller
 1. **Scary Close** by Donald Miller
 1. **All the Pretty Horses** by Cormac McCarthy
+1. **The Things They Carried** by Tim O'Brien
 1. **Killing Jesus** by Bill O'Reilly
 1. **The Emperor's Soul** by Brandon Sanderson
 1. **Elantris** by Brandon Sanderson

@@ -1,6 +1,0 @@
----
-title: Year in Review (2019)
-layout: post
-emoji: 👨🏻‍💻
-published: false
----

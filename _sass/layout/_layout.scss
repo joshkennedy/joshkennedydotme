@@ -1,12 +1,18 @@
-.Layout-home {
-  padding: 0.5rem;
+.Layout {
+  &-home {
+    padding: 0.5rem;
 
-  @include breakpoint(sm) {
-    padding: 1.5rem;
+    @include breakpoint(sm) {
+      padding: 1.5rem;
+    }
+
+    @include breakpoint(md) {
+      padding: 2.5rem;
+    }
   }
 
-  @include breakpoint(md) {
-    padding: 2.5rem;
+  &-post {
+    padding-bottom: 3rem;
   }
 }
 

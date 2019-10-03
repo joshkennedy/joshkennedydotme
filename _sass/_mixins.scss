@@ -45,6 +45,13 @@
   font-style: normal;
 }
 
+@mixin font-mono {
+  line-height: 1.5;
+  font-family: "IBM Plex Mono", monospace;
+  @include size--base-0;
+}
+
+
 // Heading X-Large
 @mixin heading-xlarge {
   line-height: 1.2;
