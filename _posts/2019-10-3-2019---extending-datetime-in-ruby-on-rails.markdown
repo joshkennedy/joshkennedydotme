@@ -5,19 +5,16 @@ emoji: 💎
 published: true
 ---
 
-This week I was faced with a conundrum.
-
 One way we're trying to bring consistency across all of our brands and apps is with
 copy editing and writing style. Thankfully, it's not up to me to determine which
 writing style to use.
 
-It did, however, come to me to figure out how we were going to tell `strftime` to format
-the ante meridiem and post meridiem in our code.
-
-Historically, we've been doing it two ways: "6:00PM" or "3:45 am", whichever the designer
-felt looked best in the mockup. Thankfully, those are the two possible ways
+It did, however, fall to me to figure out how we were going to tell `strftime` to format
+the ante meridiem and post meridiem in our code, since there's no built-in way tell it to
+return "a.m." or "p.m." (with the periods). The two possible ways
 [offered to us
-by `strftime`](http://man7.org/linux/man-pages/man3/strftime.3.html){:target="_blank"}{:rel="noopener"}.
+by `strftime`](http://man7.org/linux/man-pages/man3/strftime.3.html){:target="_blank"}{:rel="noopener"}
+are `%P` and `%p` which return "am" and "PM" respectively.
 
 ```rb
 # e.g. Nov. 20, 5:45pm
@@ -45,14 +42,14 @@ So I enlisted the help of a buddy
 who helped me look into the possibility of cleaning this up a bit. He suggested extending
 the default `DateTime` class, which would make a nice reusable solution.
 
-After a few unsuccessful attempts and a bit more research, he
+After a few unsuccessful attempts and a bit more research, we
 [discovered](https://stackoverflow.com/a/5847393){:target="_blank"}{:rel="noopener"}
-that you can extend core class by putting it in the `config/initializers` directory,
-since Rails will include everything in there by default.
+that you can extend a core class by putting it in the `config/initializers` directory,
+since Rails will include everything in that directory by default.
 
-Once we got that working, the next task was to correctly format regardless if  the time
-being passed in was using `%p` or `%P`. A few minutes of Regex tomfoolery, and we ended up
-with this:
+Once we got that working, the next task was to correctly format regardless whether the
+time being passed through was using `%p` or `%P`. A few minutes of Regex tomfoolery
+later, we ended up with this:
 
 ```rb
 # config/initializers/extensions/date_time.rb
@@ -64,7 +61,7 @@ class DateTime
 end
 ```
 
-Now we can pass either format through and get the expected result:
+Now we can pass `%p` or `%P` through and get the expected result in a reusable way:
 
 ```rb
 # November 20 at 5:45 p.m.
