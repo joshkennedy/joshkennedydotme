@@ -16,10 +16,9 @@ reading something fictonal before bed.
 
 - **Knowing God** by J.I. Packer
 - **To Own a Dragon** by Donald Miller
-- **Back Blast** by Mark Greaney
+- **Gunmetal Gray** by Mark Greaney
 - **American Pastoral** by Philip Roth
 - **Washington: A Life** by Ron Chernow
-- **Zero to One** by Peter Thiel
 
 #### 2019
 
@@ -33,7 +32,7 @@ Grouped by author and/or series
 1. **Pirate** by Ted Bell
 1. **Thank You For My Service** by Mat Best
 1. **Hickory Dickory Death** by Agatha Christie
-1 **Alas, Babylon** by Pat Frank
+1. **Alas, Babylon** by Pat Frank
 1. **Man's Search for Meaning** by Viktor E. Frankl
 1. **Lethal White** by Robert Galbraith
 1. **Houses on the Sand** by Noah Goats
@@ -42,6 +41,7 @@ Grouped by author and/or series
 1. **On Target** by Mark Greaney
 1. **Ballistic** by Mark Greaney
 1. **Dead Eye** by Mark Greaney
+1. **Back Blast** by Mark Greaney
 1. **Everyday Millionaires** by Chris Hogan
 1. **The Girl in the Spider's Web** by David Lagercrantz
 1. **The Girl Who Takes an Eye for an Eye** by David Lagercrantz
@@ -68,6 +68,7 @@ Grouped by author and/or series
 1. **We Are Legion, We Are Bob** by Dennis E. Taylor
 1. **For We Are Many** by Dennis E. Taylor
 1. **All These Worlds** by Dennis E. Taylor
+1. **Zero to One** by Peter Thiel
 1. **Alive in the Spirit** by A.W. Tozer
 1. **The Pursuit of God** by A.W. Tozer
 1. **Artemis** by Andy Weir

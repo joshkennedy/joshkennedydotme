@@ -1,4 +1,11 @@
 .Post {
+  @include p-y-spacer-($spacer-lg);
+
+  p {
+    margin: 0 auto;
+    @include m-b-spacer-($spacer-lg);
+  }
+
   &-image {
     @include breakpoint(sm) {
       float: right;
@@ -15,6 +22,8 @@
 }
 
 .Published {
+  display: block;
+  text-align: center;
   color: $color-gray;
   font-size: 1.7ex;
 }

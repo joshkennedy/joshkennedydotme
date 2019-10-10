@@ -1,7 +1,7 @@
 .Header {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 2.5rem 1.5rem;
 
   @include breakpoint(md) {
     flex-direction: row;
@@ -10,8 +10,8 @@
   }
 
   .Layout-home & {
-    padding: 1.5rem;
     position: absolute;
+    padding: 1.5rem;
 
     @include breakpoint(sm) {
       width: calc(100% - 8rem);
@@ -32,14 +32,14 @@
   ul {
     display: flex;
     flex-direction: row;
-    list-style: none;
     margin: 0;
     padding: 0;
+    list-style: none;
 
     li {
-      font-weight: 600;
-      letter-spacing: 0.04rem;
       text-align: right;
+      letter-spacing: 0.04rem;
+      font-weight: 600;
       @include size--base-0;
 
       &:not(:first-of-type) {
