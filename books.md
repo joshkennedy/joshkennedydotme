@@ -6,18 +6,18 @@ layout: default
 
 <p class="Lede">This year I set myself the goal of reading 50 books.</p>
 
-I've managed to [stay in front of my goal so far](https://www.goodreads.com/user/show/13207293-josh){:target="_blank"}{:rel="noopener"}. As I type this, I'm a few books ahead of schedule. We'll see if that holds up.
+I managed to [stay in front of my goal](https://www.goodreads.com/user/show/13207293-josh){:target="_blank"}{:rel="noopener"} for most of the year and I finished my 50th book on November 10th. Mission accomplished.
 
-I'm reading 3-4 books at any given time. I typically read something edifying and faith-building with my morning coffee,
-listen to an audiobook during my commute, read something non-fiction in the evenings and on weekends, and fall asleep
-reading something fictonal before bed.
+I'm typically reading 3-4 books at any given time. I typically read something edifying and faith-building with my
+morning coffee, listen to an audiobook during my commute, read something non-fiction in the evenings and on weekends,
+and fall asleep reading something fictonal before bed.
 
 #### Currently Reading
 
 - **Knowing God** by J.I. Packer
-- **To Own a Dragon** by Donald Miller
-- **Gunmetal Gray** by Mark Greaney
-- **American Pastoral** by Philip Roth
+- **Agent in Place** by Mark Greaney
+- **Origin** by Dan Brown
+- **Genghis Khan and the Making of the Modern World** by Jack Weatherford
 - **Washington: A Life** by Ron Chernow
 
 #### 2019
@@ -31,6 +31,8 @@ Grouped by author and/or series
 1. **Assassin** by Ted Bell
 1. **Pirate** by Ted Bell
 1. **Thank You For My Service** by Mat Best
+1. **The Terminal List** by Jack Carr
+1. **True Believer** by Jack Carr
 1. **Hickory Dickory Death** by Agatha Christie
 1. **Alas, Babylon** by Pat Frank
 1. **Man's Search for Meaning** by Viktor E. Frankl
@@ -42,11 +44,14 @@ Grouped by author and/or series
 1. **Ballistic** by Mark Greaney
 1. **Dead Eye** by Mark Greaney
 1. **Back Blast** by Mark Greaney
+1. **Gunmetal Gray** by Mark Greaney
 1. **Everyday Millionaires** by Chris Hogan
 1. **The Girl in the Spider's Web** by David Lagercrantz
 1. **The Girl Who Takes an Eye for an Eye** by David Lagercrantz
+1. **The Five Dysfunctions of a Team** by Patrick Lencioni
 1. **Through Painted Deserts** by Donald Miller
 1. **Scary Close** by Donald Miller
+1. **To Own a Dragon** by Donald Miller
 1. **All the Pretty Horses** by Cormac McCarthy
 1. **The Things They Carried** by Tim O'Brien
 1. **Killing Jesus** by Bill O'Reilly
