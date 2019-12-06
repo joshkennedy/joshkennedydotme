@@ -16,7 +16,7 @@ and fall asleep reading something fictonal before bed.
 
 - **Knowing God** by J.I. Packer
 - **Agent in Place** by Mark Greaney
-- **Origin** by Dan Brown
+- **The Automatic Customer: Creating a Subscription Business in Any Industry** by John Warrillow
 - **Genghis Khan and the Making of the Modern World** by Jack Weatherford
 - **Washington: A Life** by Ron Chernow
 
@@ -31,6 +31,7 @@ Grouped by author and/or series
 1. **Assassin** by Ted Bell
 1. **Pirate** by Ted Bell
 1. **Thank You For My Service** by Mat Best
+1. **Origin** by Dan Brown
 1. **The Terminal List** by Jack Carr
 1. **True Believer** by Jack Carr
 1. **Hickory Dickory Death** by Agatha Christie
