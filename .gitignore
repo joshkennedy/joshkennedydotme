@@ -9,3 +9,6 @@
 _site
 bower_components
 node_modules
+
+# Local Netlify folder
+.netlify
