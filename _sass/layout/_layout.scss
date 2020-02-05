@@ -1,7 +1,5 @@
 .Layout {
   &-home {
-    padding: 0.5rem;
-
     @include breakpoint(sm) {
       padding: 1.5rem;
     }
@@ -9,6 +7,8 @@
     @include breakpoint(md) {
       padding: 2.5rem;
     }
+
+    padding: 0.5rem;
   }
 
   &-post {
@@ -24,15 +24,16 @@
 }
 
 .Intro {
+  @include breakpoint(sm) {
+    padding: 0 2rem;
+    height: calc(100vh - 5rem);
+    min-height: 800px;
+  }
+
   display: flex;
   align-items: center;
   background-color: $color-platinum;
   padding: 6rem 0;
-
-  @include breakpoint(sm) {
-    padding: 0 2rem;
-    height: calc(100vh - 5rem);
-  }
 }
 
 .Page {
@@ -40,12 +41,12 @@
 
   &-title {
     &::after {
+      @include m-y-spacer-($spacer-sm);
       display: block;
       background-color: $color-black;
       width: 5rem;
       height: 8px;
       content: "";
-      @include m-y-spacer-($spacer-sm);
     }
   }
 }
