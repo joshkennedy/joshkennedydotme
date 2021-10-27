@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1 class="Page-title">Chat Demo</h1>
+<h1 class="Page-title">Contact</h1>
 
 <p class="Lede">Let's confabulate.</p>
 
