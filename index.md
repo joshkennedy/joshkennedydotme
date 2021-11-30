@@ -4,7 +4,7 @@ layout: home
 
 <h1 class="Page-title">Slinger of Divs.<br>Pusher of Pixels.</h1>
 
-<p class="Lede">Hey, I’m Josh - proud husband, father of <strike>three</strike> four, novice baker of bread, and lover of finely-crafted stories.</p>
+<p class="Lede">Hey, I’m Josh - proud husband, father of <strike>four</strike> five, novice baker of bread, and lover of finely-crafted stories.</p>
 
 I’m passionate about emerging technologies and implementing creative solutions to complex problems.
 
